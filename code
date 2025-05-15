@@ -1,1 +1,444 @@
+#Basic of Web Development
+1) code for html and javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Nikhil's Web Page</title>
+    <style>
+        body {
+            background-color: powderblue;
+            font-family: sans-serif;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+
+        table {
+            width: 50%;
+        }
+
+        h1.large-text {
+            font-size: 120px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+    <p>This is my first text</p>
+
+    <h1>Heading</h1>
+    <h2>Heading</h2>
+    <h3>Heading</h3>
+    <h4>Heading</h4>
+    <h5>Heading</h5>
+    <h6>Heading</h6>
+
+    <p>Success is the sum of small efforts, repeated day in and day out.</p>
+
+    <p>Page break</p>
+    <br>
+
+    <h1 style="color: rgb(69, 15, 230);">Nikhil</h1>
+    <h1 style="background-color: gold;">Nikhil</h1>
+    <h2 style="color:red; background-color: gold;">xyz</h2>
+    <h1 class="large-text">This is Font size</h1>
+    <h2>Text font</h2>
+
+    <p><b>Nikhil</b></p>
+    <p><i>Nikhil</i></p>
+    <p><u>Nikhil</u></p>
+
+    <p class="right">Nikhil is a good boy</p>
+    <p class="center">Nikhil is a good boy</p>
+
+    <p>Success is the sum of <mark>small efforts</mark>, repeated day in and day out. (for mark)</p>
+    <p>Success is the <strong>sum of small efforts</strong>, repeated day in and day out. (for strong)</p>
+    <p><sub>Success is the sum of small efforts, repeated day in and day out. (for subscript)</sub></p>
+    <p><sup>Success is the sum of small efforts, repeated day in and day out. (for superscript)</sup></p>
+
+    <a href="https://www.instagram.com" target="_blank">Click Here</a> |
+    <a href="about.html">About Page</a>
+    <br><br>
+
+    <img src="test.jpg" width="400" height="500" alt="Test Image">
+    <img src="folder.jpg" width="400" height="500" alt="Folder Image">
+    <br><br>
+
+    <ul>
+        <li>BMW</li>
+        <li>Toyota</li>
+        <li>Audi</li>
+    </ul>
+
+    <ol>
+        <li>Hyderabad</li>
+        <li>Telangana</li>
+        <li>India</li>
+    </ol>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nikhil</td>
+                <td>Hyderabad</td>
+                <td>9502282004</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <iframe src="https://www.wikipedia.org" height="500" width="600" title="Wikipedia"></iframe>
+    <br><br>
+
+    <button onclick="showAlert()">Click Me!</button>
+
+    <script>
+        function showAlert() {
+            alert("Today is Monday, May 12, 2025");
+        }
+    </script>
+
+</body>
+</html>
+
+2) css code
+body {
+
+    background-color: yellowgreen; 
+    /*background-image: url(testimage.jpg);
+    background-size: 80%; */
+}
+
+h1{color: red;
+background-color: yellow;
+}
+
+p{color: yellow;}
+
+p{background-color: red;}
+
+
+#paragraph{background-color: white;
+color: red;
+
+}
+
+
+
+.headingstyle{color: blueviolet;
+ 
+    background-color: aqua;
+
+
+}
+
+3) product html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning CSS(External)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<h1>This is my CSS Heading Color</h1>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quasi natus obcaecati voluptas, nihil ex ipsam numquam non ipsa, architecto sunt itaque esse. In minima atque nulla voluptatem debitis suscipit.</p>
+
+<p id="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dicta mollitia magni obcaecati rem magnam doloribus eius quis unde maxime alias esse consequatur officia sapiente ut consectetur incidunt facilis repellat.</p>
+
+<h1 class="headingstyle">This is my second CSS Heading</h1>
+
+<div>
+<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, possimus molestias explicabo fugit expedita magni incidunt dignissimos illum minima libero fugiat obcaecati cum harum est, sunt consectetur omnis! Quidem, rerum?</h5>
+
+<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae odio voluptate facilis blanditiis, porro autem ipsam, laborum quo perferendis adipisci voluptates vitae eum ullam nihil dolorum excepturi. Magni, laborum dignissimos.</h5>
+<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia beatae neque impedit minima! Repellendus minima ab eligendi omnis totam similique, quasi iste, non delectus pariatur, reprehenderit vero perspiciatis fugiat laboriosam.</h5>
+</div>
+
+
+<h4>Dotted Border</h4>
+<h4>solid Border</h4>
+<h4>double Border</h4>
+
+
+
+
+</body>
+
+</html>
+
+4) contact form
+<!-- contact-form.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      padding: 2rem;
+    }
+    form {
+      background: white;
+      padding: 2rem;
+      max-width: 400px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, button {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<form>
+  <h2>Contact Us</h2>
+  <input type="text" placeholder="Your Name" required>
+  <input type="email" placeholder="Your Email" required>
+  <input type="text" placeholder="Subject">
+  <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
+
+5) validation form
+<!-- form-validation.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Validation</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #f9f9f9;
+      padding: 2rem;
+    }
+    form {
+      max-width: 400px;
+      background: white;
+      padding: 2rem;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    input, button {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border-radius: 5px;
+    }
+    #message {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+<form id="contactForm">
+  <h2>Contact Form</h2>
+  <input type="email" id="email" placeholder="Your Email" required>
+  <button type="submit">Submit</button>
+  <p id="message"></p>
+</form>
+
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message');
+    const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+    if (!emailPattern.test(email)) {
+      message.textContent = "Invalid email format.";
+    } else {
+      message.style.color = "green";
+      message.textContent = "Form submitted successfully!";
+    }
+  });
+</script>
+
+</body>
+</html>
+
+
+6) responsive layout
+<!-- responsive-layout.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    header {
+      background: teal;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    nav {
+      background: #eee;
+      padding: 1rem;
+    }
+    main {
+      background: #f9f9f9;
+      padding: 1rem;
+    }
+    @media (max-width: 768px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>My Responsive Page</h1>
+</header>
+
+<div class="container">
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Welcome</h2>
+    <p>This layout adapts to different screen sizes using CSS Grid.</p>
+  </main>
+</div>
+
+</body>
+</html>
+
+
+7) to do lists
+
+<!-- todo-list.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #f0f8ff;
+      padding: 2rem;
+    }
+    .todo {
+      max-width: 400px;
+      margin: auto;
+      background: white; 
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    input, button {
+      padding: 0.75rem;
+      width: 100%;
+      margin: 0.5rem 0;
+      border-radius: 5px;
+    }
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      background: #eee;
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .delete {
+      background: red;
+      color: white;
+      border: none;
+      padding: 0.25rem 0.5rem;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="todo">
+  <h2>To-Do List</h2>
+  <input type="text" id="taskInput" placeholder="New Task">
+  <button onclick="addTask()">Add Task</button>
+  <ul id="taskList"></ul>
+</div>
+
+<script>
+  function addTask() {
+    const taskInput = document.getElementById('taskInput');
+    const taskList = document.getElementById('taskList');
+
+    if (taskInput.value.trim() !== '') {
+      const li = document.createElement('li');
+      li.textContent = taskInput.value;
+
+      const delBtn = document.createElement('button');
+      delBtn.textContent = 'Delete';
+      delBtn.className = 'delete';
+      delBtn.onclick = () => taskList.removeChild(li);
+
+      li.appendChild(delBtn);
+      taskList.appendChild(li);
+      taskInput.value = '';
+    }
+  }
+</script>
+
+</body>
+</html>
+     
 
